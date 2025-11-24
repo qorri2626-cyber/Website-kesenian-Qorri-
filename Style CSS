@@ -1,0 +1,108 @@
+/* Reset CSS */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.2;
+    background-color: #ffe4e1;
+    /* Pink muda sebagai latar belakang utama */
+    color: #880e4f;
+    /* Pink tua untuk teks */
+    border: 2px;
+}
+
+header {
+    background-color: #ffb6c1;
+    /* Pink lebih terang untuk header */
+    color: #A42267;
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 2px solid #f06292;
+    /* Pink yang lebih kuat sebagai border */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 1rem;
+}
+
+nav a {
+    color: #880e4f;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #f06292;
+    /* Pink yang lebih kuat saat dihover */
+}
+
+main {
+    padding: 1rem;
+}
+
+footer {
+    background-color: #ffb6c1;
+    /* Pink lebih terang untuk footer */
+    color: #880e4f;
+    text-align: center;
+    padding: 1rem;
+    border-top: 2px solid #f06292;
+    /* Pink yang lebih kuat sebagai border */
+}
+
+.search-form {
+    display: flex;
+    flex-direction: column;
+    width: 859px;
+    padding: 20px;
+    background-color: #ffb6c1;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.search-label {
+    background-color: #F06292;
+    color: #880e4f;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.search-input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ffb6c1;
+    border-radius: 5px;
+}
+
+.search-button {
+    background-color: #f06292;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #F06292;
+}
